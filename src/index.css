@@ -343,6 +343,31 @@ body {
   justify-content: center;
 }
 
+/* Responsive */
+
+@media (max-width: 767px) {
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    height: auto !important;
+  }
+  .nav-bar .search {
+    width: auto !important;
+  }
+  .main {
+    flex-direction: column;
+    height: auto !important;
+  }
+  .main .box {
+    width: auto !important;
+  }
+  .summary div {
+    flex-direction: column;
+  }
+}
+
 /*
 SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 40 / 48 / 64 / 80 / 96 / 128
